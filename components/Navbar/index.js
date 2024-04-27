@@ -23,9 +23,12 @@ export const Navebar = () => {
             <div className='flex gap-8 font-poppins'>
               {navItems.map((nav)=>{
                 return (
-                <Link href= { nav === "Home"? '/':`/${nav.toLowerCase()}`} key={nav}>
-                      <div className={(splittedRouter[1] === nav.toLowerCase())? 'text-[#55F85C]':''}  > {nav}</div>
-                </Link>
+                      <div key={nav} className={`text-[16px] font-[400] tracking-wide ${
+                        nav === "Home"
+                            ? " bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent"
+                            : ""
+                    }`}  > {nav}</div>
+  
                 )
               })}
             </div>

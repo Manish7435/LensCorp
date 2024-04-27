@@ -17,16 +17,16 @@ function TrueAI() {
                         <div>
                             Meet 
                         </div>
-                        <div className='ml-4'>
+                        <div className='ml-4 bg-gradient-to-r from-blue-500 via-[#2f80ed] to-[#ee216b] bg-clip-text text-transparent'>
                             Tru-AI
                         </div>
                     </div>
-                    <div className='text-xl my-8 font-[500]'>
+                    <div className='text-2xl my-8 font-[300]'>
                         Design. Create. Deploy.
                     </div>
                     <div className='flex'>
-                        <div>____</div>
-                        <div className='mb-6'>the Future of AI | Power to EDIT</div>
+                        <div>_ </div>
+                        <div className='mb-6 text-xl bg-gradient-to-r from-blue-500 via-[#2f80ed] to-[#ee216b] bg-clip-text text-transparent'>the Future of AI | Power to EDIT</div>
                     </div>
                     <div>Based On Your Website & Traffic Trends, Tru-AI Optimises Your Website</div>
                     <Button className="bg-white text-black px-8 py-6 text-lg mt-8">

@@ -1,5 +1,10 @@
 import AboutUs from "@/components/AboutUs";
+import Blogs from "@/components/Blogs";
+import Clients from "@/components/Clients";
+import ContactUs from "@/components/ContactUs";
 import Hero from "@/components/Hero";
+import KnowUs from "@/components/KnowUs";
+import Numbers from "@/components/Numbers";
 import Services from "@/components/Services";
 import TrueAI from "@/components/TrueAI";
 import Why from "@/components/WhyChoose";
@@ -12,6 +17,11 @@ export default function Home() {
      <Services/>
      <TrueAI/>
      <Why/>
+     <Blogs/>
+     <Clients/>
+     <Numbers/>
+     <KnowUs/>
+     <ContactUs/>
     </main>
   );
 }
