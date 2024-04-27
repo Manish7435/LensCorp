@@ -19,10 +19,13 @@ module.exports = {
     extend: {
       backgroundImage:{
         hero : "url('https://lenscorp.ai/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdetwrhe0k%2Fimage%2Fupload%2Fv1691730929%2Flenscorp-website%2FDesktop_-_23_u3ypg0.jpg&w=256&q=75')",
-        services: "url('/services.png')"
+        services: "url('/services.png')",
+        whychoose: "url('/why.png')",
+        
       },
       fontFamily:{
         raleway: ["'Raleway'", 'sans-serif'],
+        poppins: [ "'Poppins'", 'sans-serif']
       },
       colors: {
         border: "hsl(var(--border))",

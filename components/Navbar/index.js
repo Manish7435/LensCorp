@@ -20,7 +20,7 @@ export const Navebar = () => {
         <Image src={"https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=256&q=75"} alt='lens' height={70} width={80}/>
         <ul className='sm:block hidden'>
           <li className='flex justify-between font-semibold '> 
-            <div className='flex gap-8'>
+            <div className='flex gap-8 font-poppins'>
               {navItems.map((nav)=>{
                 return (
                 <Link href= { nav === "Home"? '/':`/${nav.toLowerCase()}`} key={nav}>
