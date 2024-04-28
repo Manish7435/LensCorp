@@ -7,9 +7,9 @@ function Hero() {
       <div className=' text-white w-[50%]'>
         <h1 className='text-[64px] font-raleway'>We are at the forefront of AI</h1> 
         <p className='text-[1.2rem]'>From Conserving Wildlife to Automatically Generating Caricatures- We Do It All</p>
-        <Button className="bg-white text-black px-8 py-6 text-lg mt-8">
+        <div className="bg-white w-44 text-black px-8 py-4 rounded-lg cursor-pointer text-lg mt-8 hover:border-[1px] hover:border-black">
           Learn More
-        </Button>
+        </div>
       </div>
       </div>
   )

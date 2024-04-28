@@ -1,6 +1,7 @@
 import React from 'react'
-import { Button } from '../ui/button'
+
 import Image from 'next/image'
+import Button from '../Button'
 
 function AboutUs() {
   return (
@@ -11,9 +12,9 @@ function AboutUs() {
           <div className='w-[50%] py-16'>
             <h1 className='text-5xl font-[500]'> Welcome To LENS</h1> 
             <p className='text-[#CFCFCF] mt-12'>We put our hearts, souls and sweat into designing and developing custom AI - powered solutions for your business so you don&apos;t have to.</p>
-            <Button variant="outline"  className="bg-white text-black px-8 py-6 text-lg mt-10">
-          Learn More
-        </Button>
+            <div className='mt-8'>
+              <Button/>
+            </div>
           </div>
           <div className='w-[50%] -lg flex justify-end'>
             <div className='h-[395px] overflow-hidden rounded-xl flex items-center border-8 border-white group-hover:border-none transform transition duration-100 ease-in-out'>
